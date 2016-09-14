@@ -33,3 +33,5 @@ http.createServer(function(req, res){
     }
 
 }).listen(4000); 
+
+console.log("File server running on port 4000");
