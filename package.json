@@ -1,0 +1,17 @@
+{
+    "name": "ghost",
+    "description": "basic Node.js and api servers",
+    "author": {
+        "name": "Eric Caleb",
+        "email": "",
+        "url": "iamcaleberic.github.io"
+    },
+    "repository": {
+        "url": "github.com/shadowscript/ghost"
+        
+    },
+    "license": "MIT",
+    "dependencies": {
+        
+    }
+}
