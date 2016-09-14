@@ -7,4 +7,4 @@ http.createServer(function(req, res){
 
 }).listen(4000);
 
-console.log("ghost listening on port 4000");
+console.log("ghost server listening on port 4000");
