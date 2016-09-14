@@ -26,6 +26,10 @@ http.createServer(function(req, res){
 
         res.writeHead(200, {"Content-Type":"image/jpeg"} || {"Content-Type":"image/png"})
         imgStream.pipe(res);
-
+    
+     } else {
+        res.writeHead(404 , {"Content-Type":"text/plain"});
+        res.end("404 Ghost File");
+    }
 
 }).listen(4000); 
