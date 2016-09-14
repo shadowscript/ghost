@@ -1,0 +1,25 @@
+[
+    {
+        "name" : "United Kingdom",
+        "continent": "Europe",
+        "capital":"London"
+    },
+
+    {
+        "name" : "China",
+        "continent": "Asia",
+        "capital":"Beijing"
+    },
+    
+    {
+        "name" : "Canada",
+        "continent": "North America",
+        "capital":"Ottawa"
+    },
+
+    {
+        "name" : "South Africa",
+        "continent": " Africa",
+        "capital":"Cape Town"
+    }
+]
