@@ -19,5 +19,13 @@ http.createServer(function(req, res){
         res.writeHead(200 , {"Content-Type":"text/css"});
 
         fileStream.pipe(res);
+     } else if (req.url.match(/.jpg/ || /.png/  )) {
+
+        var imgPath = path.join(__dirname , "public", req.url);
+        var imgStream =  fs.createReadStream(imgPath);
+
+        res.writeHead(200, {"Content-Type":"image/jpeg"} || {"Content-Type":"image/png"})
+        imgStream.pipe(res);
+
 
 }).listen(4000); 
