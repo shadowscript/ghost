@@ -11,5 +11,13 @@ http.createServer(function(req, res){
         res.end(html);
 
         });
+     } else if (req.url.match(/.css$/)){
+
+        var cssPath = path.join(__dirname , 'public' , req.url);
+        var fileStream = fs.createReadStream(cssPath , "UTF-8");
+
+        res.writeHead(200 , {"Content-Type":"text/css"});
+
+        fileStream.pipe(res);
 
 }).listen(4000); 
