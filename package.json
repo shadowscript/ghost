@@ -1,5 +1,6 @@
 {
     "name": "ghost",
+    "version": "0.0.1"
     "description": "basic Node.js and api servers",
     "author": {
         "name": "Eric Caleb",
