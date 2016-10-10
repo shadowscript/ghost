@@ -21,8 +21,8 @@ http.createServer(function(req, res){
         fileStream.pipe(res);
      } else if (req.url.match(/.js$/)){
 
-        var cssPath = path.join(__dirname , '/' , req.url);
-        var fileStream = fs.createReadStream(cssPath , "UTF-8");
+        var jsPath = path.join(__dirname , '/' , req.url);
+        var fileStream = fs.createReadStream(jsPath , "UTF-8");
 
         res.writeHead(200 , {"Content-Type":"text/javascript"});
 
