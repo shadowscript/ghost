@@ -1,18 +1,27 @@
 {
-    "name": "ghost",
-    "version": "0.0.1",
-    "description": "basic Node.js and api servers",
-    "author": {
-        "name": "Eric Caleb",
-        "email": "",
-        "url": "iamcaleberic.github.io"
-    },
-    "repository": {
-        "url": "github.com/shadowscript/ghost"
-
-    },
-    "license": "MIT",
-    "dependencies": {
-
-    }
+  "name": "ghost",
+  "version": "0.0.1",
+  "description": "basic Node.js and api servers",
+  "author": {
+    "name": "Eric Caleb",
+    "email": "",
+    "url": "iamcaleberic.github.io"
+  },
+  "repository": {
+    "url": "github.com/shadowscript/ghost"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.3.14",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
